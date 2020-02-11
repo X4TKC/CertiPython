@@ -1,0 +1,17 @@
+grupo a
+ls crea un listado de los archivos 
+ls -m crea una linea con todos los nombres de los archivos
+ls -l crea un listado de todos los archivos con todos los permisos de escritura, ejecucion y lectura 
+ls -l -v crea un listado de archivos y lo ordena de forma numerica
+grupo b
+ls a* crea un listado de todos los archivos que empiezan con a
+ls a*.c crea un listado de todos los archivos que empiezan con a y terminan con .c
+ls a??.c crea un listado con todos los archivos que empiezan con a tienen dos caracteres en medio y terminan en .c
+ls a????.c crea un listado con todos los archivos que empiezan con a tienen 4 caracteres y terminan con .c
+ls ?iii?.c crea un listado con todos los archivos que empizan con cualquier caracter tiene 3 i's en medio un caracter al final y termina con .c
+ls *9.c crea un listado con todos los archivos que terminen con 9.c
+grupo c
+ls ai[1-5].c crea un listado con ai tiene de 1 a 5 y termina con .c
+ls [a-c]ii1.c crea un listado con un inicio de a hasta c con 3 i's y termina con .c
+
+

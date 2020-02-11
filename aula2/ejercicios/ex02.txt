@@ -1,0 +1,3 @@
+ls -c me permite ver la lista de los archivos en columnas
+ls -g muestra una lista pero no muestra el dueno
+ls -i muestra el index de cada file en una lista
