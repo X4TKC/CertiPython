@@ -1,0 +1,7 @@
+cp copy files
+rm remove files
+mv move files
+mkdir create a directory
+rmdir remove a directory
+touch create a file
+ls show list of the files in the directory
