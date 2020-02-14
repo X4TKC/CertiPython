@@ -1,0 +1,16 @@
+ps -fu kevinc procesos que el usuario esta ejecutando
+ps -ef todos los procesos que los usuarios estan ejecutando
+firefox & despues use ps para ver el PID de su proceso 
+utilize kill para matar el proceso con el pid del proceso
+use el comando gedit para abrir gedit despues presione ctrl z para pausarlo y escribe bg para mandarlo a background
+despues use fg para mandar el ultimo proceso devuelta a fg
+top para ver los procesos 
+man top para entender los comandos
+buscamos un pid que puedo cerrar que no sea esencial y pongo k para matarlo
+
+
+
+utilizamos nohup ./forever.sh &
+y buscamos el proceso con ps -e
+
+

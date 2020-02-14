@@ -1,0 +1,22 @@
+Cual es el nombre de mi maquina? whoami or hostname
+Cual es la hora del sistema? date
+En que camino esta el comando cp? which cp para ver la ubicacion del comando cp
+Utilize los 10 ejemplos 
+-- find . para encontrar todos los archivos en el directorio
+-- find ./test -maxdepth 1 -name *.php
+-- find ./Certipython -name '*.*' ! -name '*.php' busca  puedes utilizar -o para hacer la operacion logica or
+-- find ./CertiPython -name g* encontrar todos los archivos con nombre que empiezen con g
+-- find ./CertiPython -type f -name "g*" solo los archivos con la letra f
+-- find ./CertiPython -type d -name "exemplo*" solo los directorios con la letra d
+-- find ~ -type f -name ".*" encontra todos los archivos ocultos hacer mas pruebas
+-- find . -type f -perm 0740 encontra todos los archivos que tienen los permisos  especificados
+-- find . -user root todos los archivos desde esa ruta que pertenecen al usuario especificado
+-- find /var/www –group perron busca todos los archivos que pertenecen a ese grupo y en ese directorio
+-- find / ~ntime 5, find / ~atime 5 ntime muestra los archivos modificados hace 5 dias con mtime podemos ser mas exactos y buscar en minutos
+-- find / -size 40M busca los archivos con el tamano especificado
+Utilizamos rm para borrar archivos y si queremos borrar los .so usamos rm *.so
+
+
+
+
+
